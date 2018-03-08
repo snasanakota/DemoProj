@@ -10,6 +10,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 import { ContactUsPageComponent } from './contact-us-page/contact-us-page.component';
 import { ProductsPageComponent } from './products-page/products-page.component';
+import { EventsPageComponent } from './events-page/events-page.component';
 
 
 const appRoutes: Routes = [
@@ -17,7 +18,9 @@ const appRoutes: Routes = [
   { path: 'landingpage',      component: LandingPageComponent },
   { path: 'products',      component: ProductsPageComponent },
   { path: 'aboutus',      component: AboutUsPageComponent },
-  { path: 'contactus',      component: ContactUsPageComponent }
+  { path: 'contactus',      component: ContactUsPageComponent },
+  { path: 'events',      component: EventsPageComponent },
+ 
 ];
 
 
@@ -28,7 +31,8 @@ const appRoutes: Routes = [
     LandingPageComponent,
     AboutUsPageComponent,
     ContactUsPageComponent,
-    ProductsPageComponent
+    ProductsPageComponent,
+    EventsPageComponent
   ],
   imports: [
     BrowserModule,
